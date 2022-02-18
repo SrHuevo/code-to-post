@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/dom-to-image.min.js"></script>
+    <script src="lib/file-saver.min.js"></script>
+    <script src="lib/cookie.js"></script>
+</head>
+<body>
+    <div id="session">
+        <select id="session-selector">
+        </select>
+        <input id="session-nominator" type="text">
+    </div>
+    <div id="exportable">
+        <div id="code-frame">
+            <div class="top"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width=".5"></circle><circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width=".5"></circle><circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width=".5"></circle></g></svg></div>
+            <img id="code">
+            <div id="info-frame">
+                <div id="info">Copy and paste your image</div>
+            </div>
+        </div>
+    </div>
+    <div class="config">
+        <div class="config-frame">
+            <label for="background">background color</label>
+            <input type="text" id="background">
+        </div>
+        <div class="config-frame">
+            <label for="backgroundCode">background code color</label>
+            <input type="text" id="backgroundCode">
+        </div>
+        <button id="export">EXPORT</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+

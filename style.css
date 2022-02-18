@@ -1,0 +1,91 @@
+body {
+    width: fit-content;
+    font-family: Georgia;
+}
+
+#session {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#exportable {
+    background-color: blueviolet;
+    width: 500px;
+    max-width: 500px;
+    padding: 50px;
+}
+
+#info-frame {
+    padding: 20px;
+}
+
+#info {
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+#code-frame {
+    background-color: #282a36;
+    border-radius: 5px;
+    box-shadow: 0 20px 68px rgb(0 0 0 / 55%);
+}
+
+.top {
+    padding: 10px;
+}
+.config {
+    margin-top: 30px;
+}
+.config-frame {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 130px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 20px;
+}
+
+input {
+    width: 74px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    float: left;
+}
+
+label {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    width: 300px;
+}
+
+#export {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #198754;
+    background-color: #198754;
+    color: #fff;
+    cursor: pointer;
+}
+#export:hover {
+    background-color: #157347;
+    border-color: #146c43;
+}
+
+#code {
+    width: 500px;
+}
+
+#session-nominator {
+    width: 300px;
+}
